@@ -1,0 +1,11 @@
+server:
+  port: 10087
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+MultipartConfig:
+  imageLocation: E:/asap/test/
+  pythonInter: D:/Anaconda3/envs/wenzi/python
+  pythonCode: E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py

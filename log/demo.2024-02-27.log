@@ -1,0 +1,136 @@
+12:56:45.349 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - filePath=E:/asap/excel1.jpg
+12:56:45.351 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - args=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/excel1.jpg]
+13:13:06.747 [http-nio-10087-exec-8] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books.jpg
+13:13:06.748 [http-nio-10087-exec-8] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books.jpg]
+13:26:38.923 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books.jpg
+13:26:38.925 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books.jpg]
+13:28:16.295 [http-nio-10087-exec-10] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books.jpg
+13:28:16.295 [http-nio-10087-exec-10] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books.jpg]
+13:33:14.111 [http-nio-10087-exec-1] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2])
+13:36:23.310 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社, 68])
+13:36:34.121 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books2.jpg
+13:36:34.124 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books2.jpg]
+13:36:38.948 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - pythonResult = G@今国加/locahsntaoom·dD命☆回四@园全到书二X国@上海大学图书管理系统团书警理、读击管理、供还管理、密码修改2017001，已登乐调出@院获@全部图书@铭作者出版社iSBN价格借还详情编错副除@大雪中的山庄东野圭吾北京十月文艺出版社978753021683535.0助aE@三生三世十里桃花度七公子沈阳出版社978754413800026.80奥四西@何以荃策默脱海朝华出版社978750541470815.00四网EnD@11外特工呈妃洗湘冬儿江苏文艺出版社978753994389374.80C酒奥E@人类简史以色列尤瓦尔·赫拉利中信出版社9787508647357080网西E@明响胡那些平儿（1-9）当年明月中国海关出版社9787801656087358.20河欧四@国D@经济学原理（上下)(美曼品机械工业出版社97871111267888.00奥联通E@方向马克·安托万马修后浪「北京联合出版公司978702012526599.80四园园E递@画的秘密马克·-安托万·马修北京联合出版公司·后浪出版公司978755026560880.0欧付LA@造彩虹的人东野生吾北京十月文艺出版社978753021685939.50奥奥园C田@控方证人阿加莎·克里斯蒂新星出版社978751332574535 0面西Da@少有人走的路M 斯科特派克吉林义史出版社978780702377726.00医园E@四@追寻生命的意义(奥维克多·弗兰克新华出版社978750116273412.0四奥四C地@秘密花园乔汉娜-贝斯摇北京联合出版公司87875025258542.00国面@四C@
+13:36:38.949 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 模板已删除
+13:36:38.949 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 所有模板均未匹配
+13:37:38.271 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+13:37:40.188 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books2.jpg
+13:37:40.189 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books2.jpg]
+13:37:44.892 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - pythonResult = G@今国加/locahsntaoom·dD命☆回四@园全到书二X国@上海大学图书管理系统团书警理、读击管理、供还管理、密码修改2017001，已登乐调出@院获@全部图书@铭作者出版社iSBN价格借还详情编错副除@大雪中的山庄东野圭吾北京十月文艺出版社978753021683535.0助aE@三生三世十里桃花度七公子沈阳出版社978754413800026.80奥四西@何以荃策默脱海朝华出版社978750541470815.00四网EnD@11外特工呈妃洗湘冬儿江苏文艺出版社978753994389374.80C酒奥E@人类简史以色列尤瓦尔·赫拉利中信出版社9787508647357080网西E@明响胡那些平儿（1-9）当年明月中国海关出版社9787801656087358.20河欧四@国D@经济学原理（上下)(美曼品机械工业出版社97871111267888.00奥联通E@方向马克·安托万马修后浪「北京联合出版公司978702012526599.80四园园E递@画的秘密马克·-安托万·马修北京联合出版公司·后浪出版公司978755026560880.0欧付LA@造彩虹的人东野生吾北京十月文艺出版社978753021685939.50奥奥园C田@控方证人阿加莎·克里斯蒂新星出版社978751332574535 0面西Da@少有人走的路M 斯科特派克吉林义史出版社978780702377726.00医园E@四@追寻生命的意义(奥维克多·弗兰克新华出版社978750116273412.0四奥四C地@秘密花园乔汉娜-贝斯摇北京联合出版公司87875025258542.00国面@四C@
+13:37:44.892 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - 模板已删除
+13:38:32.181 [http-nio-10087-exec-1] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:38:32.182 [http-nio-10087-exec-1] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+13:39:06.501 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+13:39:11.228 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:39:11.228 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+13:39:11.228 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/books.jpg
+13:39:11.229 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/books.jpg]
+13:39:15.897 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - pythonResult = B北创科技北创联合编目系统@加@编目管理英国管理列表@O团面心国学学lisen适输入查询内容Q@老进图书典藏正题名ISBN副题名丛编题名编著者分类号@众@1销售如何说9787554606681陆冰著F713.3@麻系统设置@N蔡康永的说9787544143158蔡康永著:熊H019-49@Marc设置网络查销实一@39787121077920咎辉若F713.36@9787121158193F713.365.24SEO兵书高峰等编蛋@品Z3950设雪@un美丽教主之9787807325789伊能静著TS974.1@Q关于我们货币战争@o9787508608686宋鸿兵编著F831.9@注册广世广货币战争9787508608686宋鸿兵编菩F831.9中@@免广告@8只有医生知道97872140900650007263张羽R@9生活中无处9787514305319刘鹏编著o@10生活中无处9787514305319刘鹏编著04-49@11移山之道9787121046094邹欣著TP311.52@12心灵游戏9787530209011巴学园2012毕淑敏著B848@13ASP.NET网7302119511网站开发非郑耀东，蔡TP393.092@K-@圆司第口页/共2页，每页显示|so一D饰总记录55条@
+13:39:15.898 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - 模板已删除
+13:39:15.899 [http-nio-10087-exec-5] DEBUG c.e.demo.controller.OcrController - -----本次匹配结束-----
+13:39:23.766 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:39:23.766 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 模板不存在，停止检测
+13:39:26.378 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+13:39:30.181 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:39:30.181 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+13:39:30.181 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/train.jpg
+13:39:30.182 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/train.jpg]
+13:39:34.531 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - pythonResult = 火车票@·姓名：刘大伟@起点站：北京朝阳@终点站；辽宁葫芦岛@身份证号:231750199807039180@
+13:39:34.531 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - 模板已删除
+13:39:34.531 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - -----本次匹配结束-----
+13:48:00.167 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+13:48:04.595 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:48:04.597 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 模板不存在，停止检测
+13:48:11.767 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+13:48:14.715 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+13:48:14.716 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+13:48:14.716 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/train.jpg
+13:48:14.717 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/train.jpg]
+13:48:18.910 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - pythonResult = 火车票@·姓名：刘大伟@起点站：北京朝阳@终点站；辽宁葫芦岛@身份证号:231750199807039180@
+13:48:18.910 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 模板已删除
+13:48:18.911 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - -----本次匹配结束-----
+14:02:19.708 [http-nio-10087-exec-6] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+14:02:23.507 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+14:02:23.510 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 模板不存在，停止检测
+14:02:27.671 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+14:02:30.425 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+14:02:30.425 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+14:02:30.425 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=E:/asap/train.jpg
+14:02:30.426 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, E:/asap/train.jpg]
+14:02:34.704 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - pythonResult = 火车票@·姓名：刘大伟@起点站：北京朝阳@终点站；辽宁葫芦岛@身份证号:231750199807039180@
+14:02:34.705 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 模板已删除
+14:02:34.706 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - -----本次匹配结束-----
+14:29:12.429 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+14:29:16.537 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+14:29:16.539 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+14:29:16.539 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=/imageFilebooks.jpg
+14:29:16.540 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - python启动参数=[D:/Anaconda3/envs/wenzi/python, E:/IntelliJFile/BUPT/springBoot3-javaOcr/demo/src/main/resources/static/executeOCR.py, /imageFilebooks.jpg]
+14:29:20.706 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - pythonResult = 
+14:29:20.707 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 模板已删除
+14:29:20.707 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 所有模板均未匹配
+14:29:20.707 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - -----本次匹配结束-----
+14:29:59.028 [http-nio-10087-exec-4] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+14:30:01.996 [http-nio-10087-exec-3] DEBUG c.e.demo.controller.OcrController - 本次传入的模板为:Template(name=火车票模板, keys=[终点站, 辽宁]), Template(name=模板B, keys=[数学, 二年级, 第二次统考]), Template(name=图书管理系统, keys=[SEO兵书, 9787121158193, F713.365.2]), Template(name=书库, keys=[人类简史, 尤瓦尔, 中信出版社])
+14:30:03.779 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - -----本次匹配开始-----
+14:30:03.781 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 模板存在，继续检测
+14:30:03.781 [http-nio-10087-exec-2] DEBUG c.e.demo.controller.OcrController - 图片临时保存地址=/imageFile/books.jpg
+14:30:03.785 [http-nio-10087-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: java.io.IOException: java.io.FileNotFoundException: C:\Users\浅海小鲨鱼\AppData\Local\Temp\tomcat.10087.12732810205397922562\work\Tomcat\localhost\ROOT\imageFile\books.jpg (系统找不到指定的路径。)] with root cause
+java.io.FileNotFoundException: C:\Users\浅海小鲨鱼\AppData\Local\Temp\tomcat.10087.12732810205397922562\work\Tomcat\localhost\ROOT\imageFile\books.jpg (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:404)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:117)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:262)
+	at com.example.demo.controller.OcrController.uploadImg(OcrController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
