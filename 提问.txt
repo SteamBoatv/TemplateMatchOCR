@@ -1,0 +1,102 @@
+我在使用python的CNOCR库来识别图片中的文字，其返回值简介如下：
+“返回值：List[Dict]，其中的每个元素存储了对一行文字的识别结果，包含以下 key ：
+text (str): 识别出的文本
+score (float): 识别结果的得分（置信度），取值范围为 [0, 1]；得分越高表示越可信
+position (np.ndarray or None): 检测出的文字对应的矩形框；np.ndarray, shape: (4, 2)，对应 box 4个点的坐标值(x, y) ; 注：此值只有使用检测模型时才会存在，未使用检测模型（det_model_name=='naive_det'）时无此值
+cropped_img (np.ndarray): 当 return_cropped_image==True 时才会有此值。 对应 position 中被检测出的图片（RGB格式），会把倾斜的图片旋转为水平。 np.ndarray 类型，shape: (height, width, 3), 取值范围：[0, 255]；
+示例：
+ [{'position': array([[ 31.,  28.],
+       [511.,  28.],
+       [511.,  55.],
+       [ 31.,  55.]], dtype=float32),
+   'score': 0.8812797665596008,
+   'text': '第一行'},
+  {'position': array([[ 30.,  71.],
+        [541.,  71.],
+        [541.,  97.],
+        [ 30.,  97.]], dtype=float32),
+   'score': 0.859879732131958,
+   'text': '第二行'},
+  {'position': array([[ 28., 110.],
+        [541., 111.],
+        [541., 141.],
+        [ 28., 140.]], dtype=float32),
+   'score': 0.7850906848907471,
+   'text': '第三行'}
+ ]”
+
+曾经编写的两个ocr识别为：
+1.按行识别内容，每段内容由@符号分割
+def excuteOcrByFile(image):
+    ocr = CnOcr()
+    output = ""
+    result = ocr.ocr(image)
+    for i in range(len(result)):
+        output += result[i]['text']
+        output += '@'
+    return output
+2.按照高度误差为5像素以内的文字为一组，组和组之间用@符号分割
+def excuteOcrByFile_PLUS(image, threshold=5,separator='@'):
+    ocr = CnOcr()
+    output = ""
+    result = ocr.ocr(image)
+
+    # 按照文字的纵坐标进行分组
+    text_groups = []
+    for item in result:
+        added = False
+        for group in text_groups:
+            if abs(group[0]['position'][0][1] - item['position'][0][1]) < threshold:  # 这里设置一个阈值，表示同一行文字的纵坐标差异不超过10个像素
+                group.append(item)
+                added = True
+                break
+        if not added:
+            text_groups.append([item])
+
+    for group in text_groups:
+        group_text = ''.join([item['text'] for item in group])
+        output += group_text + separator
+
+    return output
+
+现在我希望可以实现一个功能:即识别每张图片的上1/3部分的位置内的文字。并将内容按照原来的功能二进行识别。即像素误差在5以内的文字视为同一组。组和组之间使用@隔开
+
+
+根据上述内容，现在我希望同时实现两个功能:
+1.每次传入图片后，先去识别这个图片上半部分是否出现了某个软件的名称。这个名称应当是和local_templates一样在程序运行的第一步就被传送过来的。
+其格式暂定为{"type":["导弹发射控制软件","人员管理软件","战略制定软件"]}。因此，我们可能会创建一个pojo类来保存类别信息，当然也可以仅仅使用List<String>。
+当图片传入后，先判断其左上角内容是否符合其中任意一款软件，如果符合，记录下结果。
+2.随后将图片投入到第二段识别中，第二段识别的要求是：会将List<Template> local_templates中的信息进行提取使用，这里介绍一下Template的格式：public class Template {private String name;private List<String> keys;}
+传递时的格式如下：[
+             {
+                 "name":"模板名称A",
+                 "keys":[
+                     "KEY1",
+                     "KEY2"
+                 ]
+             },
+             {
+                 "name":"模板名称B",
+                 "keys":[
+                     "key1",
+                     "key2"
+                 ]
+             }
+             ]。
+随后我们去根据图片中是否出现了name里包含的名称(如“模板名称A”)，如果出现，则现在确定当前图片符合哪个模板。此处可以保证，每个图片最多只可同时匹配一个模板。注意：此功能的识别内容是整个图片，而非之前说到的1/3或者是部分图片
+随后去搜索图片中的剩余内容，查看其是否某个段落包含了KEY1或者是KEY2的内容。如果是，则保存整个段落(两个@符号之间的内容)。当然，可能会遇到无法匹配所有关键字的时刻，这个无需担心。
+如果一个关键字出现在了多个段落中，则将这些段落全部返回。
+
+基于上述讨论，请帮我涉及python代码，controller代码和service中的代码
+
+
+------------
+我有一段话，保存在String text里。
+还有一个List<String>集合。里面保存了n个关键字。
+现在我想判断哪个关键字出现在了text里,请帮我编写代码,使用java.
+
+------------
+现在我想编写一个程序，程序接受一个String text变量。变量内每个段落间使用@符号分割。类似：”北创科技北创联合编目系统@加@编目管理英国管理列表@O团面心国学学lisen适输入查询内容Q@老进图书典藏正题名ISBN副题名丛编题名编著者分类号@“
+同时，我会给你一个List<Template>集合。Template格式如下：public class Template {private String name;private List<String> keys;}
+我希望在text变量中，寻找出现了哪个Template的name属性。即代表是匹配到该模板。
+随后应当根据模板出现的keys信息，把所有包含任一keys的段落(@符号分割)均提取出来，保存到List<String>中。

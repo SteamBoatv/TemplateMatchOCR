@@ -30,4 +30,5 @@
     </root>
     <!-- 保留特定包下的日志输出   -->
     <logger name="com.example.demo.controller" level="DEBUG" />
+    <logger name="com.example.demo.service" level="DEBUG" />
 </configuration>

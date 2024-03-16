@@ -12,6 +12,7 @@ def excuteOcrByFile(image):
         output += '@'
     return output
 
+
 def excuteOcrByFile_PLUS(image, threshold=5,separator='@'):
     ocr = CnOcr()
     output = ""
@@ -35,9 +36,41 @@ def excuteOcrByFile_PLUS(image, threshold=5,separator='@'):
 
     return output
 
+def excuteOcrByFile_TOP(image, threshold=5, separator='@',ratio = 3):
+    ocr = CnOcr()
+    output = ""
+
+    # 获取图片高度并计算上1/3部分的高度
+    img_height = image.shape[0]
+    top_third_height = img_height // ratio
+
+    # 裁剪图片获取上1/3部分的图像
+    top_image = image[:top_third_height, :]
+
+    result = ocr.ocr(top_image)
+
+    # 按照文字的纵坐标进行分组
+    text_groups = []
+    for item in result:
+        added = False
+        for group in text_groups:
+            if abs(group[0]['position'][0][1] - item['position'][0][1]) < threshold:
+                group.append(item)
+                added = True
+                break
+        if not added:
+            text_groups.append([item])
+
+    for group in text_groups:
+        group_text = ''.join([item['text'] for item in group])
+        output += group_text + separator
+
+    return output
+
 if __name__ == '__main__':
     a = []
     for i in range(1, len(sys.argv)):
         a.append((sys.argv[i]))
     print(excuteOcrByFile_PLUS(a[0]))
+#     print(test(a[0]))
 #     print(temp(a[0]))
