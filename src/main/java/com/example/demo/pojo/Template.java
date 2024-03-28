@@ -10,6 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Template {
-    private String name;
+    private String name = "";
     private List<String> keys;
 }

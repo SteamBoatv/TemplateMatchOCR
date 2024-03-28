@@ -42,4 +42,11 @@ public interface OcrService {
     public String identifySoftwareNamesByFilePath(String filePath)throws IOException, InterruptedException;
 
     public String saveImageFile(MultipartFile imageFile);
+
+    /**
+     * 根据
+     * @param imageFile
+     * @return
+     */
+    Result placeHolderByLine(MultipartFile imageFile) throws IOException, InterruptedException;
 }

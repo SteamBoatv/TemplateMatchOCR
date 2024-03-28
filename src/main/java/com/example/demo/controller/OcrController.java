@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.common.Result;
-import com.example.demo.pojo.ImageMatchResult;
+import com.example.demo.common.ImageMatchResult;
 import com.example.demo.pojo.Template;
 import com.example.demo.service.OcrService;
 import jakarta.servlet.ServletException;
@@ -54,6 +54,11 @@ public class OcrController {
         return Result.ok(imageMatchResult);
     }
 
+    @PostMapping("/placeHolder")
+    @ResponseBody
+    public Result placeHolder(@RequestParam("image") MultipartFile imageFile) throws IOException, InterruptedException {
+        return ocrService.placeHolderByLine(imageFile);
+    }
 
 
 }
